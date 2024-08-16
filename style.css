@@ -1,0 +1,61 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    background-image: url(img/index-background-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    
+
+    display: flex;
+    gap: 30px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        
+    }
+}
+.btn{
+    padding: 7px;
+    color: white;
+    background-color: green;
+    border: none;
+    font-family: Oswald;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+
+}
+
+.box{
+    
+display: flex;
+flex-direction: column;
+gap: 45px;
+align-items: start;
+
+font-family: Oswald;
+font-size: 30px;
+font-weight: 400;
+line-height: 60px;
+text-align: left;
+
+}
